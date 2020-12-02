@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #474a74;
+  --secondary-color: #e04459;
+  --txt-color: #4a4b57;
+}
+
+div {
+  word-wrap: break-word;
+}
+
+.c1 {
+  color: var(--primary-color)
+}
+.bgc1 {
+  background-color: var(--primary-color)
+}
+
+.c2 {
+  color: var(--secondary-color);
+}
+
+.txt1 {
+  color: var(--txt-color);
+}
+
+.s28 {
+  font-size: 28px;
+}
+
+.green {
+  color: rgb(37, 212, 60);
+}
+
+.yellow {
+  color: #e6bc33;
+}
+
+.lctr {
+  background-color: #b5b7dd;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.headernav {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.nav-tabs a {
+  color: #b5b7dd
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--primary-color);
+  border: none;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.tbl {
+  table-layout: fixed;
+  width: 100%;
+}
+.tbl tr th{
+  width: 150px;
+}

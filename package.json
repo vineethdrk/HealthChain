@@ -1,0 +1,35 @@
+{
+  "name": "healthchain",
+  "version": "1.0.0",
+  "description": "Healthchain poc",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bs58": "^4.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "eccrypto": "^1.1.3",
+    "ejs": "^2.6.1",
+    "elliptic": "^6.5.2",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "js-sha256": "^0.9.0",
+    "mongoose": "^5.7.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "ripemd160": "^2.0.2",
+    "secure-random": "^1.1.2",
+    "standard-ecies": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
